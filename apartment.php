@@ -36,7 +36,7 @@ if($_GET['id']){
 
 
 
-	<div data-role="content"  >	
+	<div data-role="content" >	
    
     	<ul data-role="listview" data-inset="true">
         	<?php   while($rs = mysql_fetch_array($result)){?>
